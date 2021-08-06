@@ -6,6 +6,9 @@
 
 <?php
 
+define('DB_USERNAME', 'root');
+define('DB_PASSWORD', 'root');
+
 // Setup local db connection details here
 $con=mysqli_connect('localhost','DB_USERNAME','DB_PASSWORD');
 
